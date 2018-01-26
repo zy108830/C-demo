@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.3)
-project(projectC)
+cmake_minimum_required(VERSION 3.9)
+project(C-demo C)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_C_STANDARD 90)
 
-set(SOURCE_FILES 4.16varwid.c.cpp)
-add_executable(projectC ${SOURCE_FILES})
+add_executable(c 0.1first.c)
