@@ -3,4 +3,4 @@ project(C-demo C)
 
 set(CMAKE_C_STANDARD 90)
 
-add_executable(c 0.1first.c)
+add_executable(c circle.c)
